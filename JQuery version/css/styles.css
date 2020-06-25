@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(231, 244, 226);
+}
+
+#container {
+    min-width: 430px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td {
+    width: 100px;
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:nth-of-type(1) {
+    color: blue;
+}
+
+#btn {
+    background-color: rgb(217, 218, 218);
+    color: rgb(211, 143, 109);
+    padding: 5px 12px 5px 12px;
+    border: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+}
